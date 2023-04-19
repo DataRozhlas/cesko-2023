@@ -1,5 +1,10 @@
-import { render } from 'preact'
-import { App } from './app'
-import './index.css'
+import { render } from "preact";
+import { ChakraProvider } from "@chakra-ui/react";
+import { App } from "./app";
 
-render(<App />, document.getElementById('app') as HTMLElement)
+render(
+  <ChakraProvider>
+    <App />
+  </ChakraProvider>,
+  document.getElementById("app") as HTMLElement
+);

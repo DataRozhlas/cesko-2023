@@ -12,12 +12,14 @@
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "framer-motion": "^10.11.6",
-    "preact": "^10.13.2"
+    "framer-motion": "^10.12.3",
+    "highcharts": "^10.3.3",
+    "preact": "^10.13.2",
+    "react-jsx-highcharts": "^5.0.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
     "typescript": "^5.0.4",
-    "vite": "^4.2.1"
+    "vite": "^4.2.2"
   }
 }
