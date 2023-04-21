@@ -34,3 +34,10 @@ const data = charts.map((question) => {
 });
 
 Deno.writeTextFileSync("charts.json", JSON.stringify(data));
+
+// print all answers to open questions
+
+Deno.writeTextFileSync(
+  "prezident2.json",
+  JSON.stringify(a.map((answer) => answer.prezident2))
+);
